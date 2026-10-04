@@ -1,0 +1,7 @@
+{
+  "extends": "@lumora/config/tsconfig.react.json",
+  "compilerOptions": {
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"]
+}

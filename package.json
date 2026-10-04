@@ -1,0 +1,28 @@
+{
+  "name": "lumora",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lumora 18+ creator-subscription platform",
+  "packageManager": "pnpm@10.31.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "test:coverage": "turbo run test -- --coverage",
+    "db:generate": "pnpm --filter @lumora/db db:generate",
+    "db:migrate": "pnpm --filter @lumora/db db:migrate",
+    "db:seed": "pnpm --filter @lumora/db db:seed",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2",
+    "prettier": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
