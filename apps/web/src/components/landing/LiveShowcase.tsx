@@ -82,11 +82,22 @@ export function LiveShowcase() {
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                   </div>
 
-                  <div className="space-y-2.5 max-h-48 overflow-y-auto text-xs pr-1">
+                  <div className="space-y-3 max-h-48 overflow-y-auto text-xs pr-1">
                     {liveShowcase.mockChat.map((msg, i) => (
-                      <div key={i} className="flex flex-col">
-                        <span className="font-bold text-pink-400 text-[11px]">{msg.user}</span>
-                        <span className="text-zinc-200">{msg.message}</span>
+                      <div key={i} className="flex items-start gap-2.5">
+                        <div className="relative w-6 h-6 rounded-full overflow-hidden flex-shrink-0 border border-white/20">
+                          <Image
+                            src={msg.avatar}
+                            alt={msg.user}
+                            fill
+                            sizes="24px"
+                            className="object-cover"
+                          />
+                        </div>
+                        <div className="flex flex-col">
+                          <span className="font-bold text-pink-400 text-[11px]">{msg.user}</span>
+                          <span className="text-zinc-200">{msg.message}</span>
+                        </div>
                       </div>
                     ))}
                   </div>

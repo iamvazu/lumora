@@ -31,6 +31,14 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://lumora.app',
     siteName: 'Lumora',
+    images: [
+      {
+        url: '/landing/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Lumora — Your fans. Your rules. Your income.',
+      },
+    ],
   },
 };
 

@@ -12,8 +12,9 @@ export function FinalCta() {
   const floatingThumbnails = [
     { src: '/landing/cat-music.webp', alt: 'Music Creator', rotate: '-6deg', top: '15%', left: '8%' },
     { src: '/landing/cat-art.webp', alt: 'Art Creator', rotate: '4deg', top: '55%', left: '12%' },
-    { src: '/landing/cat-fitness.webp', alt: 'Fitness Creator', rotate: '-4deg', top: '20%', right: '10%' },
-    { src: '/landing/cat-cosplay.webp', alt: 'Cosplay Creator', rotate: '6deg', top: '60%', right: '14%' },
+    { src: '/landing/cat-fitness.webp', alt: 'Fitness Creator', rotate: '-4deg', top: '18%', right: '10%' },
+    { src: '/landing/cat-cosplay.webp', alt: 'Cosplay Creator', rotate: '6deg', top: '62%', right: '14%' },
+    { src: '/landing/cat-cooking.webp', alt: 'Cooking Creator', rotate: '-2deg', top: '40%', right: '4%' },
   ];
 
   return (

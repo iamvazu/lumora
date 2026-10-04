@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://lumora.app'),
   title: 'Lumora — Creator Subscriptions & Fan Community',
   description: 'The premium creator platform for independent adult creators, exclusive content, livestreams, and community.',
 };

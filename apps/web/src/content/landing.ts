@@ -274,11 +274,11 @@ export const landingContent = {
     cta: 'Learn about live',
     image: '/landing/live-stage.webp',
     mockChat: [
-      { user: '@alex_m', message: 'The lighting setup looks incredible tonight!' },
-      { user: '@sam_k', message: 'Tipped $25 toward the goal 🚀' },
-      { user: '@chloe_99', message: 'Can you show the camera angle settings?' },
-      { user: '@marcus_v', message: 'Just upgraded my membership!' },
-      { user: '@devon_art', message: 'Sound quality is crystal clear 🙌' },
+      { user: '@alex_m', message: 'The lighting setup looks incredible tonight!', avatar: '/landing/avatar-3.webp' },
+      { user: '@sam_k', message: 'Tipped $25 toward the goal 🚀', avatar: '/landing/avatar-4.webp' },
+      { user: '@chloe_99', message: 'Can you show the camera angle settings?', avatar: '/landing/avatar-5.webp' },
+      { user: '@marcus_v', message: 'Just upgraded my membership!', avatar: '/landing/avatar-6.webp' },
+      { user: '@devon_art', message: 'Sound quality is crystal clear 🙌', avatar: '/landing/avatar-3.webp' },
     ],
   },
 
